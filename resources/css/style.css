@@ -1,0 +1,161 @@
+body{
+	background: #f8f8f8;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.navbar-default {
+  background-color: #008EC2;
+  border-color: transparent;
+  border: 0px;
+}
+
+.navbar-brand {
+  padding: 15px 19px;
+}
+
+.navbar {
+  border-radius: 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  transition: all 0.5s ease;
+  text-align: center;
+  color: #FFF;
+}
+
+.navbar-default .navbar-nav>li>a>span.bubble {
+  background: #00BFF7;
+  width: 25px;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.navbar-default .navbar-nav>li>a>i {
+font-size: 16px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #004F6C;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #008EC2;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #FFF;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #00BFF7;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color:#FFF;
+  background-color: rgb(0, 117, 160);
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  color: #FFF;
+  background-color: #067096;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #FFF;
+  background-color: #004F6C;
+}
+
+.navbar-default .navbar-brand {
+  color: #FFF;
+  background: #004F6C;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: #FFF;
+  background-color: rgb(0, 112, 153);
+}
+
+.nav>li>a>img {
+  max-width: 50px;
+  border-radius: 50%;
+}
+
+#sider-menu{
+ padding: 0px;
+}
+
+#sider-menu a{
+  transition: all 0.5s ease;
+  display: block;
+  background: #0077A3;
+  padding: 6px 0px 6px 22px;
+  color: #FFF;
+  text-decoration: none;
+  border-bottom: 1px solid #004F6C;
+}
+
+#sider-menu a:hover{
+  background: #006489;
+}
+
+
+#top-menu .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+  transition: all 0.3s ease;
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: #008EC2;
+}
+
+.cards {
+  position: relative;
+  border: 2px solid #CCC;
+  border-radius: 8px;
+  text-align: center;
+  padding: 25px;
+  background-color: #64628e;
+  color: rgb(255, 255, 255);
+}
+.cardscir {
+  position: relative;
+  border: 2px solid #CCC;
+  border-radius: 8px;
+  text-align: center;
+  padding: 25px;
+  background-color: #1B9AC4;  
+  color: rgb(255, 255, 255);
+}
+.cardscol {
+  position: relative;
+  border: 2px solid #CCC;
+  border-radius: 8px;
+  text-align: center;
+  padding: 25px;
+  background-color: #0e426f;
+  color: rgb(255, 255, 255);
+}
+.cardsdoc {
+  position: relative;
+  border: 2px solid #CCC;
+  border-radius: 8px;
+  text-align: center;
+  padding: 25px;
+  background-color: #42a95c;
+  color: rgb(255, 255, 255);
+}
+.gi-3x{font-size: 3em;}
+
+.cards .header-bg {
+  /* This stretches the canvas across the entire hero unit */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px #FFF solid;
+  /* This positions the canvas under the text */
+  z-index: 1;
+}
+

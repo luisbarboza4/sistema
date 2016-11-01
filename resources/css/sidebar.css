@@ -1,0 +1,42 @@
+body{
+	background: #f8f8f8;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+/* Panel Default Change Style */
+.panel-default>.panel-heading {
+  color: #FFF;
+  background-color: #008EC2;
+  border-color: #008EC2;
+}
+
+/* Sider Menu */
+#sider-menu{
+ padding: 0px;
+}
+
+#sider-menu a{
+  transition: all 0.5s ease;
+  display: block;
+  background: #0077A3;
+  padding: 15px 0px 6px 30px;
+  color: #FFF;
+  font-size: 18px;
+  text-decoration: none;
+  border-bottom: 1px solid #004F6C;
+}
+
+#sider-menu a:hover{
+  background: #006489;
+}
+
+
+#top-menu .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+  transition: all 0.3s ease;
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: #008EC2;
+}
+
+
