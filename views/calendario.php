@@ -39,7 +39,7 @@ if (isset($_POST['from']))
         $id = trim($row[0]);
 
         // GENERACION DEL LINK DEL EVENTO
-        $link = "$base_url"."views/descripcion_evento.php?id=$id";
+        $link = "../"."views/descripcion_evento.php?id=$id";
 
         // AQUI SE ACTUALIZA
         $query="UPDATE eventos SET url = '$link' WHERE id = $id";
@@ -48,7 +48,7 @@ if (isset($_POST['from']))
         $conexion->query($query); 
 
         // SE REDIRECCIONA AL PLANIFICADOR
-        header("Location:$base_url"."views/calendario.php"); 
+        header("Location:../"."views/calendario.php"); 
     }
 }
  ?>
@@ -146,7 +146,7 @@ if (isset($_POST['from']))
 
                         modal_type:'iframe',    
 
-                        events_source: '<?=$base_url?>controllers/obtener_eventos.php', 
+                        events_source: '../controllers/obtener_eventos.php', 
 
                         view: 'month',             
 
@@ -154,7 +154,7 @@ if (isset($_POST['from']))
 
                         language: 'es-ES', 
 
-                        tmpl_path: '<?=$base_url?>resources/tmpls/', 
+                        tmpl_path: '../resources/tmpls/', 
                         tmpl_cache: false,
 
                         time_start: '08:00', 

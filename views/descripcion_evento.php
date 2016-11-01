@@ -62,16 +62,16 @@ if (isset($_POST['eliminar_evento']))
 <head>
 	<meta charset="UTF-8">
 	<title><?=$titulo?></title>
-        <link rel="stylesheet" href="<?=$base_url?>resources/css/bootstrap.min.css">
-        <link rel="stylesheet" href="<?=$base_url?>resources/css/calendar.css">
-        <link rel="stylesheet" href="<?=$base_url?>resources/css/font-awesome.min.css">
-        <link rel="stylesheet" href="<?=$base_url?>resources/css/bootstrap-datetimepicker.min.css" />
-        <script src="<?=$base_url?>resources/js/es-ES.js"></script>
-        <script src="<?=$base_url?>resources/js/jquery.min.js"></script>
-        <script src="<?=$base_url?>resources/js/moment.js"></script>
-        <script src="<?=$base_url?>resources/js/bootstrap.min.js"></script>
-        <script src="<?=$base_url?>resources/js/bootstrap-datetimepicker.js"></script>
-        <script src="<?=$base_url?>resources/js/bootstrap-datetimepicker.es.js"></script>
+        <link href="../resources/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../resources/css/calendar.css" rel="stylesheet">
+        <link href="../resources/css/font-awesome.min.css" rel="stylesheet">
+        <link href="../resources/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+        <script src="../esources/js/es-ES.js"></script>
+        <script src="../resources/js/jquery.min.js"></script>
+        <script src="../resources/js/moment.js"></script>
+        <script src="../resources/js/bootstrap.min.js"></script>
+        <script src="../resources/js/bootstrap-datetimepicker.js"></script>
+        <script src="../resources/js/bootstrap-datetimepicker.es.js"></script>
 </head>
 <body>
 <div id="descrip_evento" class="<?php echo $hidediv ?>"> 
