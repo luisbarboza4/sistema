@@ -33,9 +33,11 @@
 						$_SESSION['level']    	 = $array[6];
 						$_SESSION['circuito'] 	 = $array[9];
 						$_SESSION['colegio']  	 = $array[10];
-						$narray=$ins->nombres($array[6],$array[9],$array[10]);
-						$_SESSION['ncircuito'] 	 = $narray[0];
-						$_SESSION['ncolegio'] 	 = $narray[1];
+						if($array[6]!=0){
+							$narray=$ins->nombres($array[6],$array[9],$array[10]);
+							$_SESSION['ncircuito'] 	 = $narray[0];
+							$_SESSION['ncolegio'] 	 = $narray[1];
+						}
 					}
 				break;
 				
