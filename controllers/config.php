@@ -18,6 +18,6 @@ if ($conexion->connect_errno) {
 }
 
 // Url donde estara el proyecto, debe terminar con un "/" al final
-$base_url="http://localhost/sistema/";
+$base_url="http://104.196.154.203/sistema/";
 
 ?>
