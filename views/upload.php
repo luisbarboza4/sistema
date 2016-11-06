@@ -155,7 +155,7 @@ $(document).ready(function(){
       }
     }
   if(isset($_POST['subo'])){
-    $date = date('Y-m-d h:i:s a',time()+1800);
+    $date = date('Y-m-d h:i:s a',time());
 		$nombre = $_POST['nombrea'];
     $descripcion = $_POST['descripciona'];
     $extension = get_extension($_FILES['archivo']['name']);
