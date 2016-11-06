@@ -45,7 +45,7 @@
 					if($inst->eliminar($id)){
 						echo 'El circuito se eliminó correctamente';
 					}else{
-						echo 'No se puedo eliminar el circuito, debido a que posee usuarios';
+						echo 'No se puedo eliminar el circuito, debido a que posee contenido';
 					}
 
 				break;
