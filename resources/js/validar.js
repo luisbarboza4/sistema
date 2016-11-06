@@ -6,7 +6,7 @@ function validarperfil(){
 	}
 }
 function sololetrasp(texto){
-	var regexp = RegExp("^[a-zA-Z]{3,25}");
+	var regexp = RegExp("[a-zA-Z]{3,25}");
 	if(regexp.test(texto.replace(" ",""))){
 		return true;
 	}else{
@@ -14,7 +14,7 @@ function sololetrasp(texto){
 	}
 }
 function nombrecir(texto){
-	var regexp = RegExp("^[a-zA-Z0-9]{5,25}");
+	var regexp = RegExp("[a-zA-Z0-9]{5,25}");
 	if(regexp.test(texto.replace(" ",""))){
 		return true;
 	}else{
@@ -22,7 +22,7 @@ function nombrecir(texto){
 	}
 }
 function nombrecol(texto){
-	var regexp = RegExp("^[a-zA-Z0-9\.]{5,25}");
+	var regexp = RegExp("[a-zA-Z0-9\.]{5,25}");
 	if(regexp.test(texto.replace(" ",""))){
 		return true;
 	}else{
@@ -30,7 +30,7 @@ function nombrecol(texto){
 	}
 }
 function nombrearch(texto){
-	var regexp = RegExp("^[a-zA-Z0-9]{5,25}");
+	var regexp = RegExp("[a-zA-Z0-9]{5,25}");
 	if(regexp.test(texto.replace(" ",""))){
 		return true;
 	}else{
@@ -38,7 +38,7 @@ function nombrearch(texto){
 	}
 }
 function descripcion(texto){
-	var regexp = RegExp("^[a-zA-Z0-9]{5,45}");
+	var regexp = RegExp("[a-zA-Z0-9]{5,45}");
 	if(regexp.test(texto.replace(" ",""))){
 		return true;
 	}else{
@@ -61,7 +61,7 @@ function pregresp(texto){
 	}
 }
 function direccion(texto){
-	var regexp = RegExp("^[a-zA-Z0-9\-\.\#\-\° ]{5,50}");
+	var regexp = RegExp("[a-zA-Z0-9\-\.\#\-\° ]{5,50}");
 	if(regexp.test(texto.replace(" ",""))){
 		return true;
 	}else{
@@ -176,7 +176,7 @@ function kpass(e){
 	}
 }
 function telefp(texto){
-	var regexp = RegExp("^[0-9]{11}");
+	var regexp = RegExp("[0-9]{11}");
 	if(regexp.test(texto)){
 		return true;
 	}else{
@@ -212,7 +212,7 @@ function validarpass(){
 	}
 }
 function pass(texto){
-	var regexp = RegExp("^[a-zA-Z0-9]{6,16}");
+	var regexp = RegExp("[a-zA-Z0-9]{6,16}");
 	if(regexp.test(texto)){
 		return true;
 	}else{
@@ -220,7 +220,7 @@ function pass(texto){
 	}
 }
 function user(texto){
-	var regexp = RegExp("^[a-zA-Z0-9]{4,16}");
+	var regexp = RegExp("[a-zA-Z0-9]{4,16}");
 	if(regexp.test(texto)){
 		return true;
 	}else{
